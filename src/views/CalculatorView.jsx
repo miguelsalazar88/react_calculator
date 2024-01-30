@@ -4,6 +4,7 @@ function CalculatorView(props){
 
     return(
     <div className="calculator">
+        
         <div className="screen">
             <div className="screen-previous">123,1234 *</div>
             <div className="screen-current">123,234</div>
