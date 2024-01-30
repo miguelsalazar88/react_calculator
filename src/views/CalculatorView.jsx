@@ -6,8 +6,8 @@ function CalculatorView(props){
     <div className="calculator">
         
         <div className="screen">
-            <div className="screen-previous">123,1234 *</div>
-            <div className="screen-current">123,234</div>
+            <div className="screen-previous">{props.model.previous}</div>
+            <div className="screen-current">{props.model.current}</div>
         </div>
         <button className="double-span">AC</button>
         <button>DEL</button>
