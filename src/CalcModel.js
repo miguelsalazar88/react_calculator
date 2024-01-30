@@ -1,4 +1,11 @@
 export default{
-    current: 123,
-    previous: 456,
+
+    //Variables:
+
+    current: "current",
+    previous: "previous",
+
+    //Functions:
+
+    
 }
